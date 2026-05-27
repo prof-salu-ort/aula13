@@ -39,8 +39,14 @@ print('Cinco primeiros elementos da tupla:', tupla_numeros[0:5])
 print('Ultimo elemento da tupla:', tupla_numeros[-1])
 
 #Desempacotamento de tuplas
-
 nomes = ('Pedro', 'João', 'Carlos', 'Mauro', 'Bia')
-x,y, *outros = nomes
+
+x, y, *outros = nomes
 print(x,y) #armazena nas variaveis x e y os valores Pedro e João
 print(outros) #armazena o resto da dupla dentro de uma lista chamada 'outros'
+
+a = nomes[0]
+b = nomes[1]
+c = list(nomes[2:])
+print(a, b) #armazena nas variaveis a e b os valores Pedro e João
+print(c) #armazena o resto da dupla dentro de uma lista

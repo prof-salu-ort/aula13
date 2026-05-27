@@ -14,9 +14,6 @@ def atualizar_relogio():
     
     # Agenda a próxima atualização após 1000 milissegundos (1 segundo)
     label.after(1000, atualizar_relogio)
-
-    if int(minuto) > 25: 
-        cor = 'red'
     
 # Configuração da janela principal
 janela = tk.Tk()
