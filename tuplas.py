@@ -32,6 +32,9 @@ print(type(valor_y))  #TUPLA
 # index() --> retorna a psição de um elemento na tupla
 
 tupla_numeros = (1,2,3,4,5,6,7,8,9,0,1,2,3,4,4,5,6)
+print('Tupla numeros:', tupla_numeros)
 print('Quantas vezes aparece o valor 3:', tupla_numeros.count(4))
 print('Em qual posição está o valor 7:', tupla_numeros.index(7))
+print('Cinco primeiros elementos da tupla:', tupla_numeros[0:5])
+print('Ultimo elemento da tupla:', tupla_numeros[-1])
 
